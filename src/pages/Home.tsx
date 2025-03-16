@@ -27,7 +27,7 @@ export default function Home() {
                         intricate details and transforming data into clear, direct solutions.
                     </p>
 
-                    <Button1 onClick={handleClick} text="Click me" />
+                    <Button1 onClick={handleClick} text="Explore More" />
                 </div>
             </section>
         </div>
