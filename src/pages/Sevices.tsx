@@ -1,7 +1,7 @@
 import Service from "../components/ServiceCard";
 import truck from '../assets/icons/truck.svg';
 
-const Sevices = () => {
+const Services = () => {
   return (
     <section className="bg-[var(--main--background)]">
         <div className='flex gap-2'>
@@ -49,4 +49,4 @@ const Sevices = () => {
   )
 }
 
-export default Sevices;
+export default Services;
