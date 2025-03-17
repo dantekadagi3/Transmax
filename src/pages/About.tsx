@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <div>
+    <section>
         {/**About section Text--on the left */}
       <div>
         <h1>TransMax Logistics <br></br><span className="text-[var(--orange--color)]">Around the world</span></h1>
@@ -18,8 +18,8 @@ const About = () => {
         {/**Images will be contained here */}
       </div>
 
-      
-    </div>
+
+      </section>
   )
 }
 
