@@ -27,6 +27,10 @@ const Newscard :React.FC<NewsCard> = ({image,title,description,date}) => {
          </div>
 
       </div>
+
+      <div>
+        <h1>{date}</h1>
+      </div>
       
     </div>
   )
