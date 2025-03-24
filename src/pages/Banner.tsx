@@ -12,7 +12,7 @@ const Banner = () => {
       style={{ backgroundImage: `url(${bg1})` }}
     >
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-[var(--blue--color)] opacity-70"></div>
+      <div className="absolute inset-0 bg-[var(--blue-color)] opacity-70"></div>
 
       {/* Content section */}
       <div className="relative text-center text-white max-w-3xl px-6">
