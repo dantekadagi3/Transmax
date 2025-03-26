@@ -28,15 +28,15 @@ const About = () => {
       </div>
 
       {/** Right side - Images */}
-      <div className="relative w-full max-w-md lg:max-w-lg mb-0.5">
+      <div className="relative w-full max-w-md lg:max-w-lg mb-32 lg:mb-40">
         {/** First Image - Bottom Layer */}
         <div className="w-full h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
-          <img src={bg} alt="This is an image" className="w-full h-full object-cover rounded-lg" />
+          <img src={bg} alt="Logistics airplane" className="w-full h-full object-cover rounded-lg" />
         </div>
 
         {/** Second Image - Top Layer (Overlapping) */}
-        <div className="w-3/4 h-[300px] lg:h-[400px] absolute -bottom-32 lg:-bottom-30 right-300px] lg:right-10 z-10 shadow-xl">
-          <img src={bg} alt="This is an image2" className="w-full h-full object-cover rounded-lg" />
+        <div className="w-3/4 h-[300px] lg:h-[400px] absolute -bottom-20 lg:-bottom-24 right-0 lg:right-10 z-10 shadow-xl">
+          <img src={bg} alt="Logistics airplane close-up" className="w-full h-full object-cover rounded-lg" />
         </div>
       </div>
     </section>

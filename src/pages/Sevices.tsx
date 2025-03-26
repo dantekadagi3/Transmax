@@ -3,7 +3,7 @@ import truck from '../assets/icons/truck.svg';
 
 const Services = () => {
   return (
-    <section className="bg-[var(--main--background)] flex flex-col items-center justify-center">
+    <section className="bg-[var(--main--background)] flex flex-col items-center justify-center p-10">
         <div className='flex gap-2 items-center justify-center'>
     <div>
          <h1 className="text-4xl font-bold">Explore our <span>services</span></h1>

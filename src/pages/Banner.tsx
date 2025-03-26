@@ -1,5 +1,5 @@
 import Button1 from "../components/Button";
-import bg1 from "../assets/images/plane.jpeg";
+import logistics from "../assets/images/Logistics.jpeg";
 
 const Banner = () => {
   function handlePress(): void {
@@ -9,10 +9,10 @@ const Banner = () => {
   return (
     <div
       className="relative bg-cover bg-center bg-no-repeat h-[20rem] flex  items-center justify-center py-12"
-      style={{ backgroundImage: `url(${bg1})` }}
+      style={{ backgroundImage: `url(${logistics})` }}
     >
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-[var(--blue-color)] opacity-70"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
 
       {/* Content section */}
       <div className="relative text-center text-white max-w-3xl px-6">
