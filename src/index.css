@@ -128,3 +128,14 @@
     }
 
 }
+
+.slick-slide{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color:var(--blue-color) !important; /* Change to your preferred color */
+  font-size: 24px; /* Adjust size if needed */
+}
