@@ -12,10 +12,15 @@ const Banner = () => {
       style={{ backgroundImage: `url(${logistics})` }}
     >
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-black opacity-70"></div>
+      <div className="absolute inset-0 bg-black opacity-80"></div>
 
       {/* Content section */}
+      
       <div className="relative text-center text-white max-w-3xl px-6">
+      <div className="">
+            <h1 className="text-[var(--blue-color)] font-bold text-4xl">Trans<span className="text-[var(--orange--color)]">max</span></h1>
+           </div>
+
         <h1 className="text-5xl md:text-6xl font-bold leading-tight">
           World Leading Contract <br /> Logistics Provider
         </h1>
