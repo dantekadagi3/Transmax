@@ -2,6 +2,7 @@
 import About from "./pages/About"
 import Banner from "./pages/Banner"
 import Competence from "./pages/Competence"
+import Footer from "./pages/Footer"
 import Goals from "./pages/Goals"
 import Home from "./pages/Home"
 import News from "./pages/News"
@@ -24,6 +25,7 @@ function App() {
    <Testimonials/>
    <Banner/>
    <News/>
+   <Footer/>
    </>
   )
 }
